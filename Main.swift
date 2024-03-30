@@ -66,6 +66,3 @@ let celular = 913740129
 
 print("Mostrando datos: \(nombre) -> \(apellido)")
 print("Mostrando dato: \(nombre) -> \(apellido) " + String(celular))
-
-
-// EXAMPLE SEMANA O2

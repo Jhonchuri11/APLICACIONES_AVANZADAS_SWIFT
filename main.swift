@@ -1,33 +1,44 @@
-// Cree un nuevo playgrounds denominado: EjercicioCondicional1 que permita determinar el mayor, menor y valor intermedio entre tres números. (Utilice IF-ELSE)
-
-// Hallando el menor, mayor e intermedio entre 3 numeros
-var n1: Int = 10
-var n2: Int = 60
-var n3: Int = 30
-
-var mensaje: String = ""
-
-var mayor: Int = 0
-var intermedio: Int = 0
-var menor: Int = 0
-
-// Determinamos usando if and else
-
-if n1 >= n2 && n1 >= n3 {
-  mayor = n1
-  intermedio = max(n2, n3)
-  menor = min(n2, n3)
-} else if n2 >= n1 && n2 >= n3 {
-  mayor = n2
-  intermedio = max(n1 , n3)
-  menor = min(n1, n3)
-} else {
-  mayor = n3
-  intermedio = max(n1, n2)
-  menor = min(n1, n2)
+for _ in 1...5 {
+    for _ in 1...5 {
+        print("*", terminator: "")
+    }
+    print("")
 }
 
-print("Numero mayor: \(mayor)")
-print("Numero intermedio: \(intermedio)")
-print("Numero menor: \(menor)")
-      
+for i in  0...5 {
+    for j in 0..<(2 * 5 - 1) {
+        if i == 5 - 1 || j == 5 - 1 - i || j == 5 - 1 + i {
+            print("*", terminator: "")
+        } else {
+            print(" ", terminator: "")
+        }
+    }
+    print("")
+}
+
+func imprimirTriangulo(_ altura: Int) {
+  for i in 0..<altura {
+      for j in 0..<(2 * altura - 1) {
+          if i == altura - 1 || j == altura - 1 - i || j == altura - 1 + i {
+              print("*", terminator: "")
+          } else {
+              print(" ", terminator: "")
+          }
+      }
+      print()
+  }
+}
+
+// Llamamos a la función para imprimir un triángulo con altura 5
+imprimirTriangulo(5)
+
+// Método para división con validación
+  func division(_ num1: Int, _ num2: Int) -> Double? {
+      guard num2 != 0 else {
+          print("No se puede dividir entre cero.")
+          return nil
+      }
+      return Double(num1) / Double(num2)
+  }
+
+division(20, 20)
