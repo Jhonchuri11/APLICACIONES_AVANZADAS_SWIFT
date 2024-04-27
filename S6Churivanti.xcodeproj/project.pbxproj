@@ -13,6 +13,8 @@
 		FB4270932BD411B2004E2907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4270912BD411B2004E2907 /* Main.storyboard */; };
 		FB4270952BD411B3004E2907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4270942BD411B3004E2907 /* Assets.xcassets */; };
 		FB4270982BD411B3004E2907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4270962BD411B3004E2907 /* LaunchScreen.storyboard */; };
+		FB4270A02BD4172F004E2907 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB42709F2BD4172F004E2907 /* CatTableViewCell.swift */; };
+		FB4270A22BD419D5004E2907 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4270A12BD419D5004E2907 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB4270942BD411B3004E2907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4270972BD411B3004E2907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4270992BD411B3004E2907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB42709F2BD4172F004E2907 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		FB4270A12BD419D5004E2907 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				FB42708B2BD411B2004E2907 /* AppDelegate.swift */,
 				FB42708D2BD411B2004E2907 /* SceneDelegate.swift */,
 				FB42708F2BD411B2004E2907 /* ViewController.swift */,
+				FB4270A12BD419D5004E2907 /* Post.swift */,
 				FB4270912BD411B2004E2907 /* Main.storyboard */,
+				FB42709F2BD4172F004E2907 /* CatTableViewCell.swift */,
 				FB4270942BD411B3004E2907 /* Assets.xcassets */,
 				FB4270962BD411B3004E2907 /* LaunchScreen.storyboard */,
 				FB4270992BD411B3004E2907 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4270A02BD4172F004E2907 /* CatTableViewCell.swift in Sources */,
 				FB4270902BD411B2004E2907 /* ViewController.swift in Sources */,
+				FB4270A22BD419D5004E2907 /* Post.swift in Sources */,
 				FB42708C2BD411B2004E2907 /* AppDelegate.swift in Sources */,
 				FB42708E2BD411B2004E2907 /* SceneDelegate.swift in Sources */,
 			);
